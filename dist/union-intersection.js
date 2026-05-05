@@ -4,3 +4,7 @@ function setStatus(message) {
     return message;
 }
 setStatus("pending");
+let myCircle = {
+    color: " brown",
+    radius: 5
+};

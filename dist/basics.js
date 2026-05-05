@@ -11,7 +11,7 @@ let value = undefined;
 let numbers = [1, 2, 3, 3, 4, 5];
 let strings = ["one", "two"];
 //tuples
-let tuples = ["test", 26];
+let tuples = ["test", 26, false];
 //enum
 var color;
 (function (color) {
@@ -30,6 +30,6 @@ userInput = 10;
 userInput = "bosco";
 //functions that not return anything
 function notReturn(message) {
-    console.log();
+    console.log(message);
 }
 //

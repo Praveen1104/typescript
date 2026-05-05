@@ -4,7 +4,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 function add(a, b) {
     return a + b;
 }
-//function with optional 
+//function with optional
 function optional(a, b) {
     if (b) {
         return a + b;
@@ -22,5 +22,8 @@ function defaultPara(a, b = 1) {
 function restParameters(...num) {
     return num.reduce((s, n) => s + n, 3);
 }
+//function typees
+//arrow function
 const addition = (a, b) => a + b;
+//function type
 let typefunction;
