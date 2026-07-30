@@ -31,3 +31,9 @@ class Employee {
 }
 let praveen = new Employee("1", "praveen", "IT");
 console.log(praveen.getDetails());
+class Manager extends Employee {
+    constructor(id, name, department, teamsize) {
+        super(id, name, department);
+        this.teamsize = teamsize;
+    }
+}
